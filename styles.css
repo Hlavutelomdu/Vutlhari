@@ -7,14 +7,13 @@ body {
 }
 
 .header-bg {
-  background-color: rgba(50, 50, 50, 0.85); /* greyish background */
+  background-color: rgba(50, 50, 50, 0.85);
   padding-bottom: 2rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   text-align: center;
   padding: 2rem 1rem;
 }
 
-/* Hide nav menu by default */
 .nav-menu {
   display: none;
   flex-direction: column;
@@ -28,7 +27,6 @@ body {
   z-index: 1000;
 }
 
-/* Show when toggled */
 .nav-menu.show {
   display: flex;
 }
@@ -43,12 +41,12 @@ body {
   justify-content: space-around;
   width: 30px;
   height: 25px;
-  background: white;       
+  background: white;
   border: none;
   cursor: pointer;
-  padding: 5px;             
-  border-radius: 5px;      
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .burger span {
@@ -59,28 +57,6 @@ body {
   transition: 0.3s ease;
 }
 
-
-/* NAV MENU: Slide-out vertical menu */
-.nav-menu {
-  display: none;
-  flex-direction: column;
-  position: fixed;
-  top: 60px; /* just below the top header */
-  left: 0;
-  width: 220px;
-  height: calc(100% - 60px);
-  background-color: rgba(30, 30, 30, 0.95);
-  padding: 2rem 1rem; /* more top + horizontal spacing */
-  z-index: 1000;
-  gap: 1.5rem; /* space between items */
-}
-
-/* Show menu */
-.nav-menu.show {
-  display: flex;
-}
-
-/* NAV ITEMS */
 .nav-menu li {
   list-style: none;
 }
@@ -95,7 +71,6 @@ body {
   transition: background 0.3s ease;
 }
 
-/* Hover effect */
 .nav-menu li a:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -121,13 +96,12 @@ body {
   margin-bottom: 1rem;
 }
 
-
 main {
   padding: 2rem;
 }
 
 section {
-  background-color: grey;
+  background-color: rgba(0, 123, 255, 0.3);
   color: #000;
   padding: 2rem;
   border-radius: 15px;
@@ -143,7 +117,7 @@ h2 {
 /* ABOUT SECTION */
 #about {
   padding: 4rem 2rem;
-  background-color: #f9f9f9; /* light grey for contrast */
+  background-color: #f9f9f9;
   color: #1e1e1e;
   text-align: center;
 }
@@ -169,7 +143,7 @@ h2 {
   max-width: 800px;
   margin: 0 auto;
   text-align: left;
-  background: Grey;
+  background: rgba(0, 123, 255, 0.3);
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
@@ -177,7 +151,7 @@ h2 {
   font-size: 1.05rem;
 }
 
-/*Skills*/
+/* SKILLS SECTION */
 #skills {
   padding: 4rem 2rem;
   background-color: #f1f1f1;
@@ -207,7 +181,7 @@ h2 {
   margin: 0 auto;
   text-align: left;
   padding: 2rem;
-  background: grey;
+  background: rgba(0, 123, 255, 0.3);
   border-radius: 12px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   list-style: none;
@@ -226,8 +200,7 @@ h2 {
   color: #333;
 }
 
-/*Experience Section*/
-
+/* EXPERIENCE SECTION */
 #experience {
   padding: 4rem 2rem;
   background-color: #fafafa;
@@ -236,7 +209,7 @@ h2 {
 }
 
 #experience h2 {
- font-size: 2rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
   position: relative;
   display: inline-block;
@@ -253,7 +226,7 @@ h2 {
 }
 
 .job {
-  background: grey;
+  background: rgba(0, 123, 255, 0.3);
   border-radius: 12px;
   padding: 2rem;
   margin: 1.5rem auto;
@@ -292,7 +265,7 @@ h2 {
   list-style-type: disc;
 }
 
-/*Education Section*/
+/* EDUCATION SECTION */
 #education {
   padding: 4rem 2rem;
   background-color: #f7f7f7;
@@ -301,7 +274,7 @@ h2 {
 }
 
 #education h2 {
- font-size: 2rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
   position: relative;
   display: inline-block;
@@ -318,7 +291,7 @@ h2 {
 }
 
 .education-entry {
-  background: grey;
+  background: rgba(0, 123, 255, 0.3);
   border-radius: 10px;
   padding: 1.5rem 2rem;
   margin: 1.5rem auto;
@@ -346,7 +319,7 @@ h2 {
   margin-top: 0.25rem;
 }
 
-/* Certificates Section */
+/* CERTIFICATES SECTION */
 #certificates {
   padding: 4rem 2rem;
   background-color: #f3f3f3;
@@ -380,7 +353,7 @@ h2 {
 }
 
 .certificate-card {
-  background: grey;
+  background: rgba(0, 123, 255, 0.3);
   border-radius: 10px;
   padding: 1.5rem;
   text-align: left;
@@ -413,8 +386,7 @@ h2 {
   text-decoration: underline;
 }
 
-
-/*References*/
+/* REFERENCES SECTION */
 #references {
   padding: 4rem 2rem;
   background-color: #f2f2f2;
@@ -422,7 +394,7 @@ h2 {
 }
 
 #references h2 {
- font-size: 2rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
   position: relative;
   display: inline-block;
@@ -455,7 +427,7 @@ h2 {
 }
 
 .reference-card {
-  background: grey;
+  background: rgba(0, 123, 255, 0.3);
   border-radius: 10px;
   padding: 1.5rem;
   text-align: left;
@@ -482,7 +454,7 @@ h2 {
   text-decoration: underline;
 }
 
-/*Contact Me Section*/
+/* CONTACT ME SECTION */
 #contactMe {
   background-color: #f4f4f4;
   padding: 4rem 2rem;
@@ -490,7 +462,7 @@ h2 {
 }
 
 #contactMe h2 {
- font-size: 2rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
   position: relative;
   display: inline-block;
@@ -542,6 +514,6 @@ h2 {
 footer {
   text-align: center;
   padding: 1rem;
-  background-color: rgba(50, 50, 50, 0.85);;
+  background-color: rgba(50, 50, 50, 0.85);
   color: white;
 }
